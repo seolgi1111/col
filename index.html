@@ -1,0 +1,80 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+
+	<style type="text/css">
+	
+	html{font-family: 'Song Myung', serif;}
+
+
+		.wrap{width: 900px; margin: auto;}
+		section{height: 500px; position: relative; }
+		.section1 {background: white;}
+		.section0 {background-color: white; height: 100px;}
+		.section2 {background: url(1.png); background-size: cover; height: 800px; }
+		.section3 {background: url(3.png); height: 1300px;}
+		.section4 {background: url(line.png);height: 1300px;}
+		.section5 {background: url(lay.png); height: 1400px;}
+
+		.ma {display: block; position: absolute; top: 145px; left: 150px; z-index: 1;
+			transition: all 1s; opacity: 0.2;}
+		.ma:hover{opacity: 1;  transform: rotate(30deg);animation: ro 3s
+			 alternate; left: 0px;}
+		.ho {position: absolute; top: 445px; left: 300px; transform: rotate(30deg);animation: ro 5s infinite ease;  }
+
+		.f {display: block; position: absolute; top: 200px; width: 600PX;  animation: ro 3s 
+			infinite cubic-bezier(.1,.72,1,.53) alternate; left: 0px; }
+
+
+
+		.ff{width:1200px;height:600px;background:url(black.png); position: absolute;color: white; position: left;}
+
+		.f1{width:1200px;height:250px;background: url(space.gif); position: absolute;color: white;}
+		.f2{width:1200px;z-index: 9999;
+			display: block;
+			position: absolute; 
+						/* 이름 시간 횟수 속도 */
+			animation: ro 30s infinite linear;}
+
+			.fff {display: block; position: absolute; top: 200px; width: 600PX;  animation: ro 3s 
+			infinite cubic-bezier(.35,.66,.72,.28)  alternate; left: 0px; }
+
+		
+
+		@keyframes ro{ to{transform: rotate3d(0.5,1,1,360deg); left: 500px;}
+
+
+		
+	
+
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<section class="section0"></section>
+		<section class="section1"><div class="f1" style="left:200px; top:200px;"></div><img class="f2" src="0000.png" ></section>
+		<section class="section0"></section>
+		<section class="section0"><div class="ff" style="left:100px; bottom:100px;position: fixed;">
+		</section>
+		<section class="section2"><img class="ma" src="black.png" width="400" height="450" ></section>
+		<section class="section3"><img class="ho" src="33.png" width="300" height="150" ></section>
+		<section class="section4"><img  src="6.png" width="650" height="400"  ></section>
+		<section class="section5"><img class="f" src="s.png" width="350" height="300"  > 
+			<img class="fff" src="ss.png" width="250" height="200"  >
+			<img class="fff" src="s.png" width="150" height="100"  >  
+			<img class="f" src="ss.png" width="550" height="500"  > 
+			<img class="fff" src="s.png" width="750" height="900"  > 
+			<img class="f" src="sss.png" width="800" height="1000" > 
+			<img class="fff" src="s.png" width="750" height="900"  >
+		</section>
+
+		<section class="section4"></section>
+
+
+	</div>
+
+</body>
+</html>
